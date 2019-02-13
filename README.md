@@ -30,3 +30,26 @@ $('.demo-skill').skillPercent({
   'speed': 40 //Скорость
 });
 ```
+## Настройки
+
+```html
+<div class="skill react">
+  <p class="skill__title">React</p>
+	<span class="skill__percent">0%</span>
+</div>
+
+<div class="skill angular">
+  <p class="skill__title">Angular</p>
+	<span class="skill__percent">0%</span>
+</div>
+```
+
+```javascript
+$('.react').skillPercent({
+  'settings': true, //Настройки
+  'speed': 50, //Скорость
+  'color': '#61DAFB', //Верхний цвет
+  'mount-color': 'rgba(255,255,255,.1)', //Цвет подложки
+  'percent': 55, //Проценты
+});
+```
