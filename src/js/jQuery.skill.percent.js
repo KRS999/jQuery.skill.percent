@@ -4,8 +4,8 @@
 		let settings = $.extend({
 			'settings': false, //Включить выключить настройки
 			'speed': 40, //Скорость анимации
-			'color': 'green', //Верхний цвет
-			'mount-color': 'rgba(255,255,255,.2)' ,//Подложка
+			'color': '#3FFA7B', //Верхний цвет
+			'mount-color': 'rgba(255,255,255,.1)' ,//Подложка
 			'percent': 65 //Процент
 		}, options);
 		//Перебираем элемент
@@ -22,7 +22,7 @@
 				dataPercentColor = settings.color;
 				dataPercentMountColor = settings['mount-color'];
 			}
-			//Если процент итоговый процент больше 100 то добавляем 100 xD
+			//Если итоговый процент больше 100 то добавляем 100 xD
 			if(dataPercent > 100) {dataPercent = 100};
 			//Таймер для анимации
 			let timer = setInterval(() => {
