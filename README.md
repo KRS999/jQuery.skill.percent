@@ -1,2 +1,2 @@
-# jQery.skill.percent
+# jQuery.skill.percent
 
