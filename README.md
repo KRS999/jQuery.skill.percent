@@ -30,12 +30,12 @@ $('.demo-skill').skillPercent({
 ```html
 <div class="skill react">
   <p class="skill__title">React</p>
-	<span class="skill__percent">0%</span>
+  <span class="skill__percent">0%</span>
 </div>
 
 <div class="skill angular">
   <p class="skill__title">Angular</p>
-	<span class="skill__percent">0%</span>
+  <span class="skill__percent">0%</span>
 </div>
 ```
 
