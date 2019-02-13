@@ -15,18 +15,14 @@
 
 ```html
 <div class="skill demo-skill" data-percent="95" data-percent-color="#E44D26" data-percent-mount-color="rgba(255,255,255,.1)">
-		  				<p class="skill__title">
-		  					HTML
-		  				</p>
-		  				<span class="skill__percent">0%</span>
-						</div>
+	<p class="skill__title">HTML</p>
+	<span class="skill__percent">0%</span>
+</div>
 
-						<div class="skill demo-skill" data-percent="85" data-percent-color="#0170BA" data-percent-mount-color="rgba(255,255,255,.1)">
-		  				<p class="skill__title">
-		  					CSS
-		  				</p>
-		  				<span class="skill__percent">0%</span>
-						</div>
+<div class="skill demo-skill" data-percent="85" data-percent-color="#0170BA" data-percent-mount-color="rgba(255,255,255,.1)">
+	<p class="skill__title">CSS</p>
+	<span class="skill__percent">0%</span>
+</div>
 ```
 
 ```javascript
