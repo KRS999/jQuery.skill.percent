@@ -10,3 +10,11 @@
 Разработчик
 ```
 * [KRS999](https://vk.com/krs999)
+
+## Аттрибуты
+
+```javascript
+$('.demo-skill').skillPercent({
+  'speed': 40 //Скорость
+});
+```
