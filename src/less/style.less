@@ -1,0 +1,51 @@
+@import 'import/normalize';
+@import 'import/reset';
+@import 'import/fonts';
+@import 'import/header';
+@import 'import/main';
+@import 'import/footer';
+@import 'import/media';
+//Colors
+@color_1: #282A36;
+@color_2: #343746;
+@color_3: #191A21;
+@color_4: #21222C;
+@color_5: #ffffff;
+@color_6: #3FFA7B;
+//Fonts
+@font-bold: 'OpenSansBold', sans-serif;
+@font-regular: 'OpenSansRegular', sans-serif;
+@font-light: 'OpenSansLight', sans-serif;
+//code fonts
+@blue: #7EE9FD;
+@green: #3FFA7B;
+@white: #ffffff;
+@pink: #FF79C6;
+@comment: #4467A4;
+body{
+	font: 16px @font-regular;
+	background-color: @color_1;
+}
+
+.container{
+	width: 100%;
+	max-width: 960px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.code__blue{
+	color: @blue;
+}
+.code__green{
+	color: @green;
+}
+.code__white{
+	color: @white;
+}
+.code__pink{
+	color: @pink;
+}
+.code__comment{
+	color: @comment;
+}

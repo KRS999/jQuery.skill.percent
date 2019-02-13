@@ -1,0 +1,44 @@
+.main{
+	&__wrap{
+		h1{
+			color: @color_5;
+			font: 23px @font-light;
+			padding: 30px 15px;
+		}
+		&-top{
+			.skill{
+				height: 45px;
+				border-radius: 50px;
+				margin-bottom: 15px;
+				display: flex;
+				overflow: hidden;
+				align-items: center;
+				justify-content: space-between;
+				background-color: rgba(255,255,255,.1);
+			}
+			p,
+			span{
+				height: 100%;
+				color: @color_5;
+				font-size: 14px;
+				display: flex;
+				padding: 0 15px;
+				align-items: center;
+				justify-content: center;
+				background-color: rgba(255,255,255,.1);
+			}
+			p{
+				min-width: 100px;
+			}
+			span{
+				min-width: 66px;
+			}
+		}
+		&-code{
+			font-size: 12px;
+			font-family: 'Source Code Pro', monospace;
+			border-radius: 5px;
+			background-color: @color_2;
+		}
+	}
+}
