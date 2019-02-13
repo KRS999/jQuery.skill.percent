@@ -6,10 +6,6 @@
 Демо
 ```
 * [jQuery.skill.percent](https://krs999.github.io/jQuery.skill.percent/)
-```
-Разработчик
-```
-* [KRS999](https://vk.com/krs999)
 
 ## Аттрибуты
 
@@ -53,3 +49,14 @@ $('.react').skillPercent({
   'percent': 55, //Проценты
 });
 ```
+## Подключения
+
+```html
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jQuery.skill.percent.min.js"></script>
+```
+
+```
+Разработчик
+```
+* [KRS999](https://vk.com/krs999)
